@@ -80,6 +80,11 @@ public:
     {
         cout << "Método: MB2" << endl;
     }
+
+    void MB3()
+    {
+        cout << "Método: MB3" << endl;
+    }
 };
 
 class C
@@ -117,6 +122,11 @@ public:
     {
         cout << "Método: MC2" << endl;
     }
+
+    void MC3()
+    {
+        cout << "Método: MC3" << endl;
+    }
 };
 
 int main()
@@ -130,9 +140,11 @@ int main()
 
     classeB.MB1();
     classeB.MB2();
+    classeB.MB3();
 
     classeC.MC1();
     classeC.MC2();
+    classeC.MC3();
 
     return 0;
 }
