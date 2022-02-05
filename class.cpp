@@ -164,6 +164,11 @@ public:
     {
         cout << "Método: MD2" << endl;
     }
+    
+    void MD4()
+    {
+        cout << "Método: MD4" << endl;
+    }
 };
 
 int main()
