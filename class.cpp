@@ -164,6 +164,11 @@ public:
     {
         cout << "Método: MD2" << endl;
     }
+
+    void MD3()
+    {
+        cout << "Método: MD3" << endl;
+    }
 };
 
 int main()
@@ -186,6 +191,7 @@ int main()
 
     classeD.MD1();
     classeD.MD2();
+    classeD.MD3();
 
     return 0;
 }
