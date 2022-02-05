@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -76,16 +77,57 @@ public:
     }
 };
 
+class C
+{
+    string c1;
+    int c2;
+
+public:
+    void setC1(string _c1)
+    {
+        _c1 = c1;
+    }
+
+    void setC2(float _c2)
+    {
+        _c2 = c2;
+    }
+
+    int getB1(int b1)
+    {
+        return b1;
+    }
+
+    float getC2(float c2)
+    {
+        return c2;
+    }
+
+    void MC1()
+    {
+        cout << "Método: MC1" << endl;
+    }
+
+    void MC2()
+    {
+        cout << "Método: MC2" << endl;
+    }
+};
+
 int main()
 {
     A classeA;
     B classeB;
+    C classeC;
 
     classeA.MA1();
     classeA.MA2();
 
     classeB.MB1();
     classeB.MB2();
+
+    classeC.MC1();
+    classeC.MC2();
 
     return 0;
 }
