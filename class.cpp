@@ -168,6 +168,10 @@ public:
     void MD3()
     {
         cout << "Método: MD3" << endl;
+    
+    void MD4()
+    {
+        cout << "Método: MD4" << endl;
     }
 };
 
