@@ -24,9 +24,9 @@ public:
         return a1;
     }
 
-    float getA2(float b2)
+    float getA2(float a2)
     {
-        return b2;
+        return a2;
     }
 
     void MA1()
@@ -98,17 +98,17 @@ public:
         _c1 = c1;
     }
 
-    void setC2(float _c2)
+    void setC2(int _c2)
     {
         _c2 = c2;
     }
 
-    int getB1(int b1)
+    string getC1(string c1)
     {
-        return b1;
+        return c1;
     }
 
-    float getC2(float c2)
+    int getC2(int c2)
     {
         return c2;
     }
@@ -171,6 +171,7 @@ int main()
     A classeA;
     B classeB;
     C classeC;
+    D classeD;
 
     classeA.MA1();
     classeA.MA2();
@@ -182,6 +183,9 @@ int main()
     classeC.MC1();
     classeC.MC2();
     classeC.MC3();
+
+    classeD.MD1();
+    classeD.MD2();
 
     return 0;
 }
