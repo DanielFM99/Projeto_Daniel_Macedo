@@ -129,6 +129,43 @@ public:
     }
 };
 
+class D
+{
+    int d1;
+    int d2;
+
+public:
+    void setD1(int _d1)
+    {
+        _d1 = d1;
+    }
+
+    void setD2(int _d2)
+    {
+        _d2 = d2;
+    }
+
+    int getD1(int d1)
+    {
+        return d1;
+    }
+
+    int getD2(int d2)
+    {
+        return d2;
+    }
+
+    void MD1()
+    {
+        cout << "Método: MD1" << endl;
+    }
+
+    void MD2()
+    {
+        cout << "Método: MD2" << endl;
+    }
+};
+
 int main()
 {
     A classeA;
